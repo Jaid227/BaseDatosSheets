@@ -1,5 +1,5 @@
 
-const url = "https://script.google.com/macros/s/AKfycbw81q43tEAR5YKmh6sd8_eEeFh9ONwoh41mRXDQFo5Xc-H53uD1DBYKj2nQnsG4wiMB/exec";
+const url = "https://script.google.com/macros/s/AKfycbxcIEhc1StNvmCDvKlooBFS3i9loktnzgzw_E0ubJK_dO3z-VR7-FRU184FbFSZMTef/exec";
 
 document.getElementById("miFormulario")
 .addEventListener("submit", function(e){
@@ -24,4 +24,5 @@ document.getElementById("miFormulario")
     .catch(err => {
         document.getElementById("mensaje").innerText = "Error al enviar ❌";
     });
+
 });
