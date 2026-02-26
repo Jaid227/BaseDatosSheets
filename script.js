@@ -1,5 +1,5 @@
 
-const url = "https://script.google.com/macros/s/AKfycbxcIEhc1StNvmCDvKlooBFS3i9loktnzgzw_E0ubJK_dO3z-VR7-FRU184FbFSZMTef/exec";
+const url = "https://script.google.com/macros/s/AKfycbzWFVIs_bkitHiFejABZL9laNW9NbuN_BwjGzArRN_JtXSt7-sBMNmZeiGtu6qepWaT/exec";
 
 document.getElementById("miFormulario")
 .addEventListener("submit", function(e){
@@ -26,3 +26,4 @@ document.getElementById("miFormulario")
     });
 
 });
+
